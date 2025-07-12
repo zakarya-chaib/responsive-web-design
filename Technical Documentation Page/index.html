@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav id="navbar">
+    <header>JavaScript Basics</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#Variables">Variables</a>
+    <a class="nav-link" href="#Functions">Functions</a>
+    <a class="nav-link" href="#Loops">Loops</a>
+    <a class="nav-link" href="#DOM_Manipulation">DOM Manipulation</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>JavaScript is a versatile programming language used in web development.</p>
+      <p>It can be used on the client and server side.</p>
+      <code>console.log("Hello, world!");</code>
+      <p>It's one of the core technologies of the web, alongside HTML and CSS.</p>
+      <ul>
+        <li>Client-side</li>
+        <li>Server-side</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Variables">
+      <header>Variables</header>
+      <p>Variables store data that can be used later.</p>
+      <p>You can declare variables using var, let, or const.</p>
+      <code>let age = 25;</code>
+      <p>Use const for variables that don't change.</p>
+      <ul>
+        <li>let</li>
+        <li>const</li>
+        <li>var (older syntax)</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Functions">
+      <header>Functions</header>
+      <p>Functions group reusable code blocks.</p>
+      <p>They can take parameters and return values.</p>
+      <code>function greet(name) { return "Hello " + name; }</code>
+      <p>Arrow functions are also widely used.</p>
+      <code>const greet = name => `Hello ${name}`;</code>
+      <ul>
+        <li>Named functions</li>
+        <li>Arrow functions</li>
+        <li>Anonymous functions</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Loops">
+      <header>Loops</header>
+      <p>Loops are used to repeat blocks of code.</p>
+      <p>Common loop types are for, while, and do...while.</p>
+      <code>for (let i = 0; i < 5; i++) { console.log(i); }</code>
+      <p>You can loop through arrays with forEach or for...of.</p>
+      <ul>
+        <li>for loop</li>
+        <li>while loop</li>
+        <li>for...of loop</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="DOM_Manipulation">
+      <header>DOM Manipulation</header>
+      <p>The DOM represents the page structure as objects.</p>
+      <p>You can use JS to change the DOM dynamically.</p>
+      <code>document.getElementById("demo").innerText = "Hello";</code>
+      <p>Events like click and input can trigger changes.</p>
+      <ul>
+        <li>getElementById</li>
+        <li>querySelector</li>
+        <li>addEventListener</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
